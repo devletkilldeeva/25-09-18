@@ -124,3 +124,27 @@ ul {
 a, a:visited {
   color: inherit;
 }
+
+h1, h2, h3, p, ul, blockquote {
+  width: 700px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
+}
+
+img + h2 {
+  margin-top: -1px;
+}
+
+img + p {
+  margin-top: -3px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
